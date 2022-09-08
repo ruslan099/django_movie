@@ -40,3 +40,11 @@ class AddReview(View):
             form.save()
         return redirect(f'/review/{pk}')
 
+
+class ActorView(DetailView):
+    """Вывод информации об актёре"""
+    model = Actor
+    template_name = 'movies/actor.html'
+    slug_field = 'name'
+    
+
