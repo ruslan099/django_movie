@@ -27,6 +27,7 @@ class MovieDetailView(DetailView):
     #     return render(request, 'movies/movie_detail.html', {'movie': movie})
 
 
+
 class AddReview(View):
     def post(self, request, pk):
         form = ReviewForm(request.POST)
