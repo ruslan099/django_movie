@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'django.contrib.flatpages',
-
+    'contact_app',
     'movies',
 
     'snowpenguin.django.recaptcha3',
